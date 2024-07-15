@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+html {
+    font-family: 'NEW TIME ROMAN';
+    scroll-behavior: smooth;
+}
+
+img {
+    width: 100%;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    z-index: 1;
+}
+
+header .logo img {
+    height: 100px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul  a {
+    margin: 5px 20px;
+    font-size: 18px;
+    color: rgb(255, 124, 9);
+    padding: 10px 10px;
+}
+
+header nav ul  a:hover {
+    border-bottom: 3px solid rgb(245, 136, 3);
+}
+header nav ul samp {
+    margin: 5px 20px;
+    font-size: 18px;
+    color: rgb(255, 124, 9);
+    padding: 10px 10px;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to bottom right, rgba(145, 119, 119, 0.097), rgba(85, 69, 69, 0.6)), url(background\ image.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.content h2 {
+    text-shadow: 2px 2px blue;
+    font-size: 50px;
+    padding-top: 80px;
+    color:white;
+}
+
+.content p {
+    text-shadow: 2px 2px blue;
+    font-size: 25px;
+    color: rgb(248, 248, 248);
+}
+
+.content a {
+    padding: 5%;
+    font-size: 17px;
+    border: white;
+    background-color: transparent;
+    color: rgb(199, 73, 73);
+    border-radius: 10%;
+    cursor: pointer;
+    transition: all .4s ease-in;
+}
+
+.content a:hover {
+    background-color: #676f7c;
+}
+
+.container {
+    background-image:url(NEWBACKGROUND\ .PNG);
+    background-color: white;
+    border: 2x solid red;
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10PX;
+    padding: 20px;
+    border-radius: 25px;
+    align-items: center;
+}
+
+.container-header {
+    display: flex;
+    background-color: rgb(24, 116, 214);
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-header h3 {
+    color: rgb(255, 255, 255);
+    padding: 10px 30px;
+}
+
+.container-header h4 {
+    color: rgb(255, 255, 255);
+    padding: 10px 30px;
+}
+
+.footer {
+    background-color: #2a487c;
+    border-top: 2px solid #212a8e;
+}
+
+.container .ganeshms a {
+    color: white;
+    display: block;
+    align-content: center;
+}
+
+.container .KRs a {
+    color: white;
+    display: block;
+    align-content: center;
+}
+
+.container .sriganesh a {
+    color: white;
+    display: block;
+    align-content: center;
+}
+
+.container img {
+    height: fit-content;
+    width: 50%;
+}
+
+/*About*/
+.About-header {
+    display: flex;
+    background-color: rgb(24, 116, 214);
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.About-header h3 {
+    color: rgb(255, 255, 255);
+    padding: 10px 30px;
+}
+
+.About-header h4 {
+    color: rgb(255, 255, 255);
+    padding: 10px 30px;
+}
+.About {
+    display: block;
+    text-align: center;
+    background-image: url(background\ image.png);
+}
+.About h2 {
+    color: white;
+    text-shadow: 2px 2px rgb(11, 11, 11);
+    text-align: left;
+}
+.About p {
+    color: white;
+    text-align: center;
+    white-space: blue;
+}
+/*contact*/
+.container .contact {
+    background-image: url(contactbackground.jpg);
+}
+.contact-header{
+    display: flex;
+    background-color: rgb(24, 116, 214);
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact-header h3 {
+    color: rgb(255, 255, 255);
+    padding: 10px 30px;
+}
+
+.contact-header h4 {
+    color: rgb(255, 255, 255);
+    padding: 10px 30px;
+}
+/* Style inputs with type="text", select elements, and textareas */
+input[type="text"], select, textarea {
+    width: 100%;
+    padding: 12px;
+    text-shadow: blue;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  /* Style the submit button */
+  input[type="submit"] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Hover effect for the submit button */
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  .container  label {
+    color: rgb(243, 178, 26);
+  }
+  /* Add background color and padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #a61a1a;
+    padding: 20px;
+  }
+  
+/*footer*/
+.footer .footer-box {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer .footer-box .social-media a {
+    color: rgb(18, 15, 15);
+    background-color: #fffafa;
+    border-radius: 50%;
+    font-size: 17px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.footer .footer-box .social-media a:hover {
+    opacity: .7;
+    transition: .5s all ease-in-out;
+}
+
+.footer .footer-box .copyright {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.footer .footer-box .brand {
+    color: white;
+    font-size: 20px;
+}
+
+.footer .footer-box .brand span {
+    color: orange;
+}
